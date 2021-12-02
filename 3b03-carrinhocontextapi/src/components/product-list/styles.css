@@ -1,0 +1,38 @@
+.catalogue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: yellowgreen;
+    list-style: none;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: tomato;
+    list-style: none;
+}
+.container{
+    display: flex;
+}
+.separation{
+    height: 200px;
+    width: 100vw;
+}
+li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+Button{
+    padding: 5px 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
